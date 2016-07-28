@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sliding_menu.iml" filepath="$PROJECT_DIR$/Sliding_menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go_Assistant/go_Assistant.iml" filepath="$PROJECT_DIR$/go_Assistant/go_Assistant.iml" />
+    </modules>
+  </component>
+</project>

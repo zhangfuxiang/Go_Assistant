@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:background="@drawable/shape"
+    >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/map_radiongroup"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            style="@style/fg_popmenu_radiobutton"
+            android:checked="true"
+            android:id="@+id/normal_map_radionbutton"
+            android:text="普通地图"/>
+        <RadioButton
+            style="@style/fg_popmenu_radiobutton"
+            android:id="@+id/sate_map_radiobutton"
+            android:checked="false"
+            android:text="卫星地图"/>
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mode_radiogroup"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            style="@style/fg_popmenu_radiobutton"
+            android:checked="true"
+            android:id="@+id/mode_radiobutton"
+            android:text="普通模式"/>
+        <RadioButton
+            style="@style/fg_popmenu_radiobutton"
+            android:checked="false"
+            android:id="@+id/follow_radiobutton"
+            android:text="跟随模式"/>
+        <RadioButton
+            style="@style/fg_popmenu_radiobutton"
+            android:checked="false"
+            android:id="@+id/compass_radiobutton"
+            android:text="罗盘模式"/>
+    </RadioGroup>
+    <android.support.v7.widget.AppCompatCheckBox
+        style="@style/fg_popmenu_checkbox"
+        android:id="@+id/traffic_map_checkbox"
+        android:text="交通地图"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        style="@style/fg_popmenu_checkbox"
+        android:id="@+id/hot_map_checkbox"
+        android:text="热力图"
+        android:layout_width="100dp" />
+    <android.support.v7.widget.AppCompatCheckBox
+        style="@style/fg_popmenu_checkbox"
+        android:id="@+id/fullscreen_mode_checkbox"
+        android:text="全屏模式"/>
+    <RadioButton
+        android:text="我的位置"
+        android:button="@null"
+        style="@style/fg_popmenu_radiobutton"
+        android:drawableLeft="@android:drawable/ic_menu_compass"
+        android:id="@+id/rbtn_mylocation"
+         />
+    <RadioButton
+        android:text="关闭"
+        android:button="@null"
+        style="@style/fg_popmenu_radiobutton"
+        android:drawableLeft="@android:drawable/ic_notification_clear_all"
+        android:id="@+id/close_button"
+         />
+
+
+
+</LinearLayout>
